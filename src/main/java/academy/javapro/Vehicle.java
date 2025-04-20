@@ -7,7 +7,7 @@ public abstract class Vehicle {
     protected boolean isRunning;
 
     // TODO: Create constructor that takes make, model, and year
-    public VehicleEdited(String make, String model, int year) {
+    public Vehicle(String make, String model, int year) {
         this.make = make;
         this.model = model;
         this.year = year;
