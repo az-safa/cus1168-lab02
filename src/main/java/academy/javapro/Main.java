@@ -1,10 +1,10 @@
 package cus1168;
 
-public class MainEdited {
+public class Main {
     public static void main(String[] args) {
         // Step 1: Create a new Tesla Model S, 2024
     	// TODO: Add your code here
-        TeslaEdited myTesla = new TeslaEdited("Model S", 2024);
+        Tesla myTesla = new Tesla("Model S", 2024);
 
         // Step 2: Display initial status
         System.out.println("Initial Status:");
