@@ -1,11 +1,11 @@
 package cus1168;
 
-public class TeslaEdited extends VehicleEdited implements Electric, Autonomous {
+public class Tesla extends Vehicle implements Electric, Autonomous {
     private boolean autopilotEnabled;
     private boolean charging;
 
     // Constructor
-    public TeslaEdited(String model, int year) {
+    public Tesla(String model, int year) {
         super("Tesla", model, year);
         this.autopilotEnabled = false;
         this.charging = false;
